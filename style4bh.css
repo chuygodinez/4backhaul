@@ -1,0 +1,136 @@
+/* HTML CODE */
+
+body {
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* HEADINGS */
+
+.big-heading {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CONTAINERS */
+
+.container-fluid {
+  width: 100%;
+  padding: 7% 15%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.white-section {
+background-color: #fff;
+color: black;
+}
+
+.colored-section {
+  background-color: #c3b4d2;
+  color: #fff;
+}
+
+.footer-section {
+  background-color: #563d7c;
+  color: #fff;
+}
+
+/* NAVBAR SECTION */
+
+.bg-4bh {
+  background-color: #563d7c;
+}
+
+.navbar-4bh .navbar-brand {
+  color: #fff;
+}
+
+.navbar-4bh .navbar-brand:hover, .navbar-4bh .navbar-brand:focus {
+  color: #fff;
+}
+
+.navbar-4bh .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-4bh .navbar-nav .nav-link:hover, .navbar-4bh .navbar-nav .nav-link:focus {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-4bh .navbar-nav .nav-link.disabled {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-4bh .navbar-nav .show > .nav-link,
+.navbar-4bh .navbar-nav .active > .nav-link,
+.navbar-4bh .navbar-nav .nav-link.show,
+.navbar-4bh .navbar-nav .nav-link.active {
+  color: #fff;
+}
+
+.navbar-4bh .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-4bh .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-4bh .navbar-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-4bh .navbar-text a {
+  color: #fff;
+}
+
+.navbar-4bh .navbar-text a:hover, .navbar-4bh .navbar-text a:focus {
+  color: #fff;
+}
+
+/* CAROUSEL SECTION */
+
+.testimonial-pic {
+  width: 20%;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* OFERTA SEMANA */
+
+.card-pad {
+  padding: 3%;
+}
+
+/* FOOTER SECTION  */
+
+#footer p {
+  color: #fff;
+}
+
+.icon-fab {
+  padding: 3% 1%;
+}
